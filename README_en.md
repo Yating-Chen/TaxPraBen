@@ -1,4 +1,4 @@
-# TaxPraBen: A Scalable Structured Evaluation Benchmark for Real-World Chinese Tax Practice
+# TaxPraBen: A Scalable Benchmark for Structured  Evaluation of LLMs in Chinese Real-World Tax Practice
 
 [English](README_en.md) | [Chinese](README.md)
 
@@ -12,6 +12,7 @@
 </p>
 ---
 
+<a id="overview"></a>
 ## 📘 1. Project Overview
 **TaxPraBen** is a scalable benchmark for **real-world Chinese tax practice**, spanning multi-level capabilities—from tax knowledge memorization and policy understanding to tax computation and tax planning in realistic scenarios. It also provides a **structured evaluation** scheme to support automated and reproducible evaluation of generative outputs.
 
@@ -21,6 +22,7 @@
 
 ---
 
+<a id="benchmark"></a>
 ## 🧭 2. Benchmark Overview
 ### 2.1 Task Taxonomy
 
@@ -58,7 +60,7 @@ We construct TaxPraBen via **multi-source data fusion**, consisting of three ove
   <img src="Figure/Data_Construction.png" width="800px" />
 </p>
 
-
+<a id="structured-eval"></a>
 ## 🧩 3. Structured Evaluation Workflow (TaxPlan as an Example)
 The TaxPlan dataset in this benchmark adopts structured evaluation: the model is required to output a parseable structure, and evaluation is then conducted via **semantic-consistency evaluation, numerical-field accuracy evaluation, unified aggregation**.
 
@@ -90,7 +92,7 @@ TaxPlan requires the model to output parseable JSON. An example is as follows:
   <img src="Figure/Evaluation.png" width="800px" />
 </p>
 
-
+<a id="quickstart"></a>
 ## 🚀 4. Quick Start
 ### 4.1 Local Installation
 
@@ -147,6 +149,7 @@ Start evaluation:
 python data/*/evaluate.py
 ```
 
+<a id="results"></a>
 ## 📈 5. Results
 ### 5.1 Overall Performance
 
