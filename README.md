@@ -1,4 +1,4 @@
-# TaxPraBen：面向真实中文税务实践的可扩展结构化评测基准
+# TaxPraBen：面向中文真实税务实践的可扩展结构化评测基准
 
 [English](README_en.md) | [中文](README.md)
 
@@ -12,6 +12,7 @@
 </p>
 ---
 
+<a id="overview"></a>
 ## 📘 1. 项目简介
 **TaxPraBen** 是一个面向“真实中文税务实践”的可扩展评测基准，覆盖从税务知识记忆到税务政策理解、再到真实场景下的税务计算与税收筹划等多层次能力，并提供 **结构化评估** 方案，以支持对生成式输出的自动化、可复现评测。
 
@@ -21,6 +22,7 @@
 
 ---
 
+<a id="benchmark"></a>
 ## 🧭 2. 基准概览
 ### 2.1 任务分层
 
@@ -58,6 +60,7 @@ TaxPraBen 将税务能力划分为三层任务类型：
   <img src="Figure/Data_Construction.png" width="800px" />
 </p>
 
+<a id="structured-eval"></a>
 ## 🧩 3. 结构化评估流程（以TaxPlan为例）
 本基准TaxPlan数据集采用结构化评估：要求模型输出满足可解析的结构，并在此基础上进行 **语义一致性评估，数值字段准确性评估，统一聚合**。
 
@@ -89,6 +92,7 @@ TaxPlan 要求模型输出可解析 JSON。示例如下：
   <img src="Figure/Evaluation.png" width="800px" />
 </p>
 
+<a id="quickstart"></a>
 ## 🚀 4. 快速开始
 ### 4.1 本地安装
 
@@ -145,6 +149,7 @@ bash scripts/run_interface.sh
 python data/*/evaluate.py
 ```
 
+<a id="results"></a>
 ## 📈 5. 评测结果
 ### 5.1 模型综合表现
 
