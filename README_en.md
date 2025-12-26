@@ -55,7 +55,7 @@ We construct TaxPraBen via **multi-source data fusion**, consisting of three ove
   Collect tax news, audit/risk cases, tax public opinion, and public Q&A from open web sources, and then apply denoising, compression, structured extraction, and quality filtering to produce evaluation-ready samples.
 
 <p align="center">
-  <img src="figure/Data_Construction.png" width="800px" />
+  <img src="Figure/Data_Construction.png" width="800px" />
 </p>
 
 
@@ -87,7 +87,7 @@ TaxPlan requires the model to output parseable JSON. An example is as follows:
 5. **Aggregation Layer**: aggregate semantic and numerical evaluation results with weighting to output the final score
 
 <p align="center">
-  <img src="figure/Evaluation.png" width="800px" />
+  <img src="Figure/Evaluation.png" width="800px" />
 </p>
 
 
@@ -151,7 +151,7 @@ python data/*/evaluate.py
 ### 5.1 Overall Performance
 
 <p align="center">
-  <img src="figure/Results.png" width="800px" />
+  <img src="Figure/Results.png" width="800px" />
 </p>
 
 
