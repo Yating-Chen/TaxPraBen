@@ -55,7 +55,7 @@ TaxPraBen 将税务能力划分为三层任务类型：
   从公开网络来源收集税务新闻、稽查/风险案例、税务舆情与留言问答等，并通过去噪、压缩、结构化抽取与质量筛选等步骤，形成适配评测的样本。
 
 <p align="center">
-  <img src="figure/Data_Construction.png" width="800px" />
+  <img src="Figure/Data_Construction.png" width="800px" />
 </p>
 
 ## 🧩 3. 结构化评估流程（以TaxPlan为例）
@@ -86,7 +86,7 @@ TaxPlan 要求模型输出可解析 JSON。示例如下：
 5. **聚合层**：将语义与数值评估结果进行加权，输出最终得分
 
 <p align="center">
-  <img src="figure/Evaluation.png" width="800px" />
+  <img src="Figure/Evaluation.png" width="800px" />
 </p>
 
 ## 🚀 4. 快速开始
@@ -149,7 +149,7 @@ python data/*/evaluate.py
 ### 5.1 模型综合表现
 
 <p align="center">
-  <img src="figure/Results.png" width="800px" />
+  <img src="Figure/Results.png" width="800px" />
 </p>
 
 - **闭源商用模型整体更强**：在多项任务上，闭源模型（如 GPT 系列、ERNIE 等）总体得分更高，体现出更好的中文理解与复杂税务场景适配能力。  
