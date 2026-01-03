@@ -162,7 +162,15 @@ python data/*/evaluate.py
 - **Chinese-oriented open-source models are often better than multilingual general-purpose models**: Models optimized/trained for Chinese tend to perform better on Chinese tax tasks; multilingual general-purpose models are more likely to lose points on fine-grained professional tasks.  
 - **One-shot does not always help**: Adding examples often improves some models’ output quality and parseability, but may degrade a few models (e.g., longer context, format drift). Prompting strategies should be selected based on task and model characteristics.
 
-### 5.2 Metric Breakdown Table
+### 5.2 Benchmark Leaderboard
+
+To enable transparent and standardized comparison of tax-oriented LLMs, we build the TaxPraBen open leaderboard, which supports model submission, automatic evaluation, and interactive result visualization.
+
+<p align="center">
+  <img src="Figure/Leaderboard.png" width="800px" />
+</p
+
+### 5.3 Metric Breakdown Table
 
 This section provides per-task, per-metric result tables for **Zero-shot** and **One-shot**.
 
