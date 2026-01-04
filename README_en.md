@@ -89,7 +89,7 @@ TaxPlan requires the model to output parseable JSON. An example is as follows:
 5. **Aggregation Layer**: aggregate semantic and numerical evaluation results with weighting to output the final score
 
 <p align="center">
-  <img src="Figure/Evaluation.png" width="800px" />
+  <img src="Figure/Evaluation.png" width="500px" />
 </p>
 
 <a id="quickstart"></a>
@@ -154,7 +154,7 @@ python data/*/evaluate.py
 ### 5.1 Overall Performance
 
 <p align="center">
-  <img src="Figure/Results.png" width="800px" />
+  <img src="Figure/Results.png" width="1000px" />
 </p>
 
 
