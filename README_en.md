@@ -57,7 +57,7 @@ We construct TaxPraBen via **multi-source data fusion**, consisting of three ove
   Collect tax news, audit/risk cases, tax public opinion, and public Q&A from open web sources, and then apply denoising, compression, structured extraction, and quality filtering to produce evaluation-ready samples.
 
 <p align="center">
-  <img src="Figure/Data_Construction.png" width="900px" />
+  <img src="Figure/Data_Construction.png" width="1000px" />
 </p>
 
 <a id="structured-eval"></a>
