@@ -167,7 +167,7 @@ python data/*/evaluate.py
 To enable transparent and standardized comparison of tax-oriented LLMs, we build the TaxPraBen open leaderboard, which supports model submission, automatic evaluation, and interactive result visualization.
 
 <p align="center">
-  <img src="Figure/Leaderboard.png" width="800px" />
+  <img src="Figure/Leaderboard.png" width="1000px" />
 </p
 
 ### 5.3 Metric Breakdown Table
