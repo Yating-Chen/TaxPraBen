@@ -57,7 +57,7 @@ We construct TaxPraBen via **multi-source data fusion**, consisting of three ove
   Collect tax news, audit/risk cases, tax public opinion, and public Q&A from open web sources, and then apply denoising, compression, structured extraction, and quality filtering to produce evaluation-ready samples.
 
 <p align="center">
-  <img src="Figure/Data_Construction.png" width="800px" />
+  <img src="Figure/Data_Construction.png" width="900px" />
 </p>
 
 <a id="structured-eval"></a>
@@ -154,7 +154,7 @@ python data/*/evaluate.py
 ### 5.1 Overall Performance
 
 <p align="center">
-  <img src="Figure/Results.png" width="1000px" />
+  <img src="Figure/Results.png" width="1200px" />
 </p>
 
 
@@ -167,7 +167,7 @@ python data/*/evaluate.py
 To enable transparent and standardized comparison of tax-oriented LLMs, we build the TaxPraBen open leaderboard, which supports model submission, automatic evaluation, and interactive result visualization.
 
 <p align="center">
-  <img src="Figure/Leaderboard.png" width="1000px" />
+  <img src="Figure/Leaderboard.png" width="1200px" />
 </p
 
 ### 5.3 Metric Breakdown Table
