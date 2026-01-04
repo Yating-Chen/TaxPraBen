@@ -1,4 +1,4 @@
-# TaxPraBen: A Scalable Benchmark for Structured  Evaluation of LLMs in Chinese Real-World Tax Practice
+<img width="654" height="131" alt="image" src="https://github.com/user-attachments/assets/35e0adb6-bb91-4ff0-91a2-200a28c83fd8" /># TaxPraBen: A Scalable Benchmark for Structured  Evaluation of LLMs in Chinese Real-World Tax Practice
 
 [English](README_en.md) | [Chinese](README.md)
 
@@ -168,7 +168,7 @@ To enable transparent and standardized comparison of tax-oriented LLMs, we build
 
 <p align="center">
   <img src="Figure/Leaderboard.png" width="1200px" />
-</p
+</p>
 
 ### 5.3 Metric Breakdown Table
 
