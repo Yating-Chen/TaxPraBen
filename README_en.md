@@ -1435,8 +1435,11 @@ This section provides per-task, per-metric result tables for **Zero-shot** and *
 </tbody></table></div>
 
 
-If you use TaxPraBen in your research, please cite our paper:
+## Citation
 
+If you find TaxPraBen useful in your research, please cite our paper:
+
+```bibtex
 @inproceedings{hu2026taxpraben,
   title={TaxPraBen: A Scalable Benchmark for Structured Evaluation of LLMs in Chinese Real-World Tax Practice},
   author={Hu, Gang and Chen, Yating and Ding, Haiyan and Gao, Wang and Jiajia, Huang and Peng, Min and Xie, Qianqian and Yue, Kun},
