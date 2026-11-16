@@ -1433,3 +1433,16 @@ python data/*/evaluate.py
 </tr>
 </tbody></table></div>
 
+## 引用
+
+如果您在研究中使用了 TaxPraBen，请引用我们的论文：
+
+```bibtex
+@inproceedings{hu2026taxpraben,
+  title={TaxPraBen: A Scalable Benchmark for Structured Evaluation of LLMs in Chinese Real-World Tax Practice},
+  author={Hu, Gang and Chen, Yating and Ding, Haiyan and Gao, Wang and Jiajia, Huang and Peng, Min and Xie, Qianqian and Yue, Kun},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={38061--38104},
+  year={2026}
+}
+```
